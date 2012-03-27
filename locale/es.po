@@ -1,0 +1,536 @@
+# Spanish translation for turses.
+# Copyright (C) 2012 turses contributors
+# This file is distributed under the same license as the turses package.
+# Alejandro Gómez <alejandroogomez@gmail.com>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.0.9\n"
+"Report-Msgid-Bugs-To: Alejandro Gómez <alejandroogomez@gmail.com>\n"
+"POT-Creation-Date: 2012-03-27 16:20+0200\n"
+"PO-Revision-Date: 2012-03-27 16:20+0200\n"
+"Last-Translator: Alejandro Gómez <alejandroogomez@gmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: turses/config.py:30
+msgid "Couldn't find any profile."
+msgstr "No se ha encontrado ningún perfil."
+
+#: turses/config.py:32
+#, python-format
+msgid "It should reside in: %s"
+msgstr "Debería residir en: %s"
+
+#: turses/config.py:33
+msgid "If you want to setup a new account, then follow these steps"
+msgstr "Si quieres configurar una nueva cuenta, sigue estos pasos"
+
+#: turses/config.py:34
+msgid "If you want to skip this, just press return or ctrl-C."
+msgstr "Si quieres saltarte este paso, presiona <Enter> o Ctrl-C."
+
+#: turses/config.py:38
+msgid "Which service do you want to use?"
+msgstr "¿Qué servicio quieres usar?"
+
+#: turses/config.py:47
+msgid ""
+"Which root url do you want? (leave blank for default, https://identi.ca/api)"
+msgstr "¿Qué URL quieres usar? (déjalo en blanco para https://identi.ca/api)"
+
+#: turses/config.py:102
+#, python-format
+msgid "Couldn't create the directory in %s/turses"
+msgstr "No ha sido posible crear el directorio %s/turses"
+
+#: turses/config.py:134
+#, python-format
+msgid "Generating configuration file in %s"
+msgstr "Generando fichero de configuración en %s"
+
+#: turses/config.py:163 turses/config.py:175
+msgid "Your choice? > "
+msgstr "¿Cuál es tu elección?"
+
+#: turses/config.py:375
+msgid "Requesting temp token from "
+msgstr "Solicitando token de"
+
+#: turses/config.py:380
+msgid "Invalid respond from "
+msgstr "Respuesta inválida de"
+
+#: turses/config.py:380
+#, python-format
+msgid " requesting temp token: %s"
+msgstr " solicitando token: %s"
+
+#: turses/config.py:385
+msgid "Please visit the following page to retrieve pin code needed"
+msgstr "Por favor, visita la siguiente URL para obtener el código PIN"
+
+#: turses/config.py:386
+msgid "to obtain an Authentication Token:"
+msgstr "para obtener el token de autenticatión:"
+
+#: turses/config.py:397
+msgid "Generating and signing request for an access token"
+msgstr "Generando y firmando petición para un token de acceso"
+
+#: turses/config.py:406
+#, python-format
+msgid "Request for access token failed: %s"
+msgstr "La solicitud te token de acceso falló: %s"
+
+#: turses/config.py:418
+msgid "Error creating directory .config/turses"
+msgstr "Error al crear el directorio .config/turses"
+
+#: turses/config.py:430
+msgid "your account has been saved"
+msgstr "tu cuenta se ha guardado"
+
+#: turses/controller.py:260
+msgid "Initializing API"
+msgstr "Inicializando API"
+
+#: turses/controller.py:297
+msgid "Initializing timelines"
+msgstr "Inicializando timelines"
+
+#: turses/controller.py:306
+msgid "Couldn't initialize API"
+msgstr "No fué posible inicializar la API"
+
+#: turses/controller.py:397
+msgid "Timelines loaded"
+msgstr "Timelines cargados"
+
+#: turses/controller.py:401
+msgid "Home timeline fetched"
+msgstr "Tweets actualizados"
+
+#: turses/controller.py:403
+msgid "Failed to fetch home timeline"
+msgstr "Fallo al actualizar tweets"
+
+#: turses/controller.py:405
+msgid "tweets"
+msgstr "tweets"
+
+#: turses/controller.py:412
+msgid "Your tweets fetched"
+msgstr "Tus tweets actualizados"
+
+#: turses/controller.py:414
+msgid "Failed to fetch your tweets"
+msgstr "Fallo al actualizar tus tweets"
+
+#: turses/controller.py:424
+msgid "Mentions fetched"
+msgstr "Menciones actualizadas"
+
+#: turses/controller.py:426
+msgid "Failed to fetch mentions"
+msgstr "Fallo al actualizar menciones"
+
+#: turses/controller.py:428
+msgid "mentions"
+msgstr "menciones"
+
+#: turses/controller.py:435
+msgid "Favorites fetched"
+msgstr "Favoritos actualizados"
+
+#: turses/controller.py:437
+msgid "Failed to fetch favorites"
+msgstr "Fallo al actualizar favoritos"
+
+#: turses/controller.py:439
+msgid "favorites"
+msgstr "favoritos"
+
+#: turses/controller.py:446
+msgid "Messages fetched"
+msgstr "Mensajes actualizados"
+
+#: turses/controller.py:448
+msgid "Failed to fetch messages"
+msgstr "Fallo al actualizar mensajes"
+
+#: turses/controller.py:450
+msgid "messages"
+msgstr "mensajes"
+
+#: turses/controller.py:458
+#, python-format
+msgid "%s updated"
+msgstr "%s actualizado"
+
+#: turses/controller.py:604
+msgid "Search user (no need to prepend it with \"@\")"
+msgstr "Buscar usuario (no es necesario escribir \"@\")"
+
+#: turses/controller.py:615
+msgid "Tweet"
+msgstr "Tweetear"
+
+#: turses/controller.py:630
+#, python-format
+msgid "Reply to %s"
+msgstr "Responder a %s"
+
+#: turses/controller.py:638
+#, python-format
+msgid "DM to %s"
+msgstr "Mensaje a %s"
+
+#: turses/controller.py:649
+#, python-format
+msgid "%s"
+msgstr "%s"
+
+#: turses/controller.py:677
+msgid "Sending tweet"
+msgstr "Enviando tweet"
+
+#: turses/controller.py:681
+msgid "Tweet canceled"
+msgstr "Tweet cancelado"
+
+#: turses/controller.py:684
+msgid "Tweet sent"
+msgstr "Tweet enviado"
+
+#: turses/controller.py:685
+msgid "Tweet not sent"
+msgstr "El tweet no se envió"
+
+#: turses/controller.py:698
+msgid "Sending DM"
+msgstr "Enviando mensaje"
+
+#: turses/controller.py:702
+msgid "DM canceled"
+msgstr "Mensaje cancelado"
+
+#: turses/controller.py:705
+#, python-format
+msgid "Direct Message to @%s sent"
+msgstr "Mensaje a @%s enviado"
+
+#: turses/controller.py:707
+#, python-format
+msgid "Failed to send message to @%s"
+msgstr "Fallo al enviar mensaje a @%s"
+
+#: turses/controller.py:726
+msgid "Search cancelled"
+msgstr "Búsqueda cancelada"
+
+#: turses/controller.py:731
+msgid "Invalid search"
+msgstr "Búsqueda no válida"
+
+#: turses/controller.py:734
+#, python-format
+msgid "Creating search timeline for \"%s\""
+msgstr "Creando timeline de búsqueda para \"%s\""
+
+#: turses/controller.py:737
+#, python-format
+msgid "Search timeline for \"%s\" created"
+msgstr "Timeline de búsqueda para \"%s\" creado"
+
+#: turses/controller.py:754
+msgid "Invalid username"
+msgstr "Nombre de usuario no válido"
+
+#: turses/controller.py:757
+#, python-format
+msgid "Fetching latest tweets from @%s"
+msgstr "Descargando los últimos tweets de @%s"
+
+#: turses/controller.py:760
+#, python-format
+msgid "@%s's timeline created"
+msgstr "Creado el timeline de @%s"
+
+#: turses/controller.py:762
+#, python-format
+msgid "Unable to create @%s's timeline"
+msgstr "No fué posible crear el timeline de @%s"
+
+#: turses/controller.py:775
+msgid "Retweet posted"
+msgstr "Retweet enviado"
+
+#: turses/controller.py:777
+msgid "Failed to post retweet"
+msgstr "Fallo al enviar retweet"
+
+#: turses/controller.py:788
+msgid "Tweet too long for manual retweet"
+msgstr "Tweet demasiado largo para retweetearlo manualmente"
+
+#: turses/controller.py:793
+msgid "Tweet deleted"
+msgstr "Tweet eliminado"
+
+#: turses/controller.py:795
+msgid "Failed to delete tweet"
+msgstr "Fallo al eliminar tweet"
+
+#: turses/controller.py:804
+msgid "You can't follow yourself"
+msgstr "No puedes seguirte a tí mismo"
+
+#: turses/controller.py:807
+#, python-format
+msgid "You are now following @%s"
+msgstr "Ahora sigues a @%s"
+
+#: turses/controller.py:809
+#, python-format
+msgid "We can not ensure that you are following @%s"
+msgstr "No podemos asegurar que sigas a @%s"
+
+#: turses/controller.py:818
+msgid "That doesn't make any sense"
+msgstr "Eso no tiene ningún sentido"
+
+#: turses/controller.py:821
+#, python-format
+msgid "You are no longer following %s"
+msgstr "Ya no sigues a @%s"
+
+#: turses/controller.py:823
+#, python-format
+msgid "We can not ensure that you are not following %s"
+msgstr "No podemos asegurar que hayas dejado de seguir a %s"
+
+#: turses/controller.py:831
+msgid "Failed to mark tweet as favorite"
+msgstr "Fallo al marcar tweet como favorito"
+
+#: turses/controller.py:833
+msgid "Tweet marked as favorite"
+msgstr "Tweet marcado como favorito"
+
+#: turses/controller.py:841
+msgid "Failed to remove tweet from favorites"
+msgstr "Fallo al eliminar tweet de favoritos"
+
+#: turses/controller.py:843
+msgid "Tweet removed from favorites"
+msgstr "Tweet eliminado de favoritos"
+
+#: turses/ui/curses.py:37
+msgid "Press '?' for help"
+msgstr "Pulsa '?' para ver la ayuda"
+
+#: turses/ui/curses.py:38
+msgid "Press 'q' to quit turses"
+msgstr "Pulsa 'q' para salir de turses"
+
+#: turses/ui/curses.py:489
+msgid "Motion"
+msgstr "Moción"
+
+#: turses/ui/curses.py:490
+msgid "Scroll up one tweet"
+msgstr "Scroll hacia arriba"
+
+#: turses/ui/curses.py:491
+msgid "Scroll down one tweet"
+msgstr "Scroll hacia abajo"
+
+#: turses/ui/curses.py:492
+msgid "Activate the timeline on the left"
+msgstr "Activar el timeline de la izquierda"
+
+#: turses/ui/curses.py:493
+msgid "Activate the timeline on the right"
+msgstr "Activar el timeline de la derecha"
+
+#: turses/ui/curses.py:494
+msgid "Scroll to first tweet"
+msgstr "Enfocar primer tweet"
+
+#: turses/ui/curses.py:495
+msgid "Scroll to last tweet"
+msgstr "Enfocar último tweet"
+
+#: turses/ui/curses.py:497
+msgid "Buffers"
+msgstr "Buffers"
+
+#: turses/ui/curses.py:498
+msgid "Shift active buffer one position to the left"
+msgstr "Deslizar el buffer activo una posición a la izquierda"
+
+#: turses/ui/curses.py:499
+msgid "Shift active buffer one position to the right"
+msgstr "Deslizar el buffer activo una posición a la derecha"
+
+#: turses/ui/curses.py:500
+msgid "Shift active buffer to the beggining"
+msgstr "Deslizar el buffer activo al principio"
+
+#: turses/ui/curses.py:501
+msgid "Shift active buffer to the end"
+msgstr "Deslizar el buffer activo al final"
+
+#: turses/ui/curses.py:502
+msgid "Activate first buffer"
+msgstr "Activar primer buffer"
+
+#: turses/ui/curses.py:503
+msgid "Activate last buffer"
+msgstr "Activar último buffer"
+
+#: turses/ui/curses.py:504
+msgid "Delete active buffer"
+msgstr "Borrar buffer activo"
+
+#: turses/ui/curses.py:505
+msgid "Clear active buffer"
+msgstr "Limpiar buffer activo"
+
+#: turses/ui/curses.py:506
+msgid "Mark all tweets in timeline as read"
+msgstr "Marcar todos los tweets del timeline como leídos"
+
+#: turses/ui/curses.py:509
+msgid "Tweets"
+msgstr "Tweets"
+
+#: turses/ui/curses.py:510
+msgid "Compose a tweet"
+msgstr "Escribir un tweet"
+
+#: turses/ui/curses.py:511
+msgid "Delete selected tweet (must be yours)"
+msgstr "Borrar tweet seleccionado (debe ser tuyo)"
+
+#: turses/ui/curses.py:512
+msgid "Reply to selected tweet"
+msgstr "Responder al tweet seleccionado"
+
+#: turses/ui/curses.py:513
+msgid "Retweet selected tweet"
+msgstr "Retweetear el tweet seleccionado"
+
+#: turses/ui/curses.py:514
+msgid "Retweet selected tweet editing it first"
+msgstr "Retweetear el tweet seleccionado editándolo primero"
+
+#: turses/ui/curses.py:515
+msgid "Send direct message"
+msgstr "Enviar mensaje"
+
+#: turses/ui/curses.py:516
+msgid "Refresh current timeline"
+msgstr "Actualizar timeline activo"
+
+#: turses/ui/curses.py:517
+msgid "Compose a tweet with the same hashtags as the focused"
+msgstr "Escribir un tweet con los mismos hashtags que el seleccionado"
+
+#: turses/ui/curses.py:519
+msgid "Friendship"
+msgstr "Amistad"
+
+#: turses/ui/curses.py:520
+msgid "Follow selected tweet's author"
+msgstr "Seguir al autor del tweet seleccionado"
+
+#: turses/ui/curses.py:521
+msgid "Unfollow selected tweet's author"
+msgstr "Dejar de seguir al autor del tweet seleccionado"
+
+#: turses/ui/curses.py:523
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: turses/ui/curses.py:524
+msgid "Mark selected tweet as favorite"
+msgstr "Marcar tweet seleccionado como favorito"
+
+#: turses/ui/curses.py:525
+msgid "Remove a tweet from favorites"
+msgstr "Borrar tweet seleccionado de favoritos"
+
+#: turses/ui/curses.py:527
+msgid "Timelines"
+msgstr "Timelines"
+
+#: turses/ui/curses.py:528
+msgid "Go to home timeline"
+msgstr "Ir al timeline principal"
+
+#: turses/ui/curses.py:529
+msgid "Go to favorites timeline"
+msgstr "Ir al timeline de favorites"
+
+#: turses/ui/curses.py:530
+msgid "Go to mentions timeline"
+msgstr "Ir al timeline de las menciones"
+
+#: turses/ui/curses.py:531
+msgid "Go to direct message timeline"
+msgstr "Ir al timeline de los mensajes"
+
+#: turses/ui/curses.py:532
+msgid "Search for term and show resulting timeline"
+msgstr "Crear timeline de búsqueda"
+
+#: turses/ui/curses.py:533
+msgid "Show somebody's public timeline"
+msgstr "Añadir timeline con los tweets de alguien"
+
+#: turses/ui/curses.py:534
+msgid "Show your public timeline"
+msgstr "Añadir timeline con tus tweets"
+
+#: turses/ui/curses.py:535
+msgid "Search the hashtags of the focused status"
+msgstr "Buscar los hashtags del tweet seleccionado"
+
+#: turses/ui/curses.py:536
+msgid "Open selected thread"
+msgstr "Abrir conversación seleccionada"
+
+#: turses/ui/curses.py:537
+msgid "Show user information "
+msgstr "Mostrar información de usuario"
+
+#: turses/ui/curses.py:538
+msgid "Show help buffer"
+msgstr "Mostrar ayuda"
+
+#: turses/ui/curses.py:541
+msgid "Others"
+msgstr "Otras"
+
+#: turses/ui/curses.py:542
+msgid "Leave turses"
+msgstr "Salir de turses"
+
+#: turses/ui/curses.py:543
+msgid "Open URL in browser"
+msgstr "Abrir URL en el navegador"
+
+#: turses/ui/curses.py:544
+msgid "Open image"
+msgstr "Abrir imágen"
+
+#: turses/ui/curses.py:545
+msgid "Redraw the screen"
+msgstr "Redibujar la pantalla"
